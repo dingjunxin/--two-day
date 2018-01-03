@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<style>
+#d1{
+	width: 700px;
+	height: 1000px;
+	 background-color:wheat;
+	 margin: auto;
+	 position: relative;/*相对定位*/
+	 overflow:  hidden;/*盖住阴影部分scroll*/
+}
+#d2{
+	transform: rotate(45deg);/*旋转40度*/
+	width: 150px;
+	height: 30px;
+	background-color: aqua;
+	right: -60px;
+	position: absolute;/*绝对定位参考相对定位*/
+	box-shadow: 1px 1px 10px black;/*阴影*/
+	 padding-left: 70px;
+}
+	</style>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+	<div id="d1" align="center">
+		<div id="d2" align="center"><b><font color="blueviolet">11.11</font></b></div>
+	</div>	
+	</body>
+</html>
