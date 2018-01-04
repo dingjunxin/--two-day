@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.container {
+				margin: 0 auto;/*居中*/
+				margin-top: 10px;/*离上方10像素*/
+				min-width: 300px;/*最少不超过300像素*/
+				width: 40%;/*宽度占网页百分之40*/
+				height: 100px;/*高度100像素*/
+				background-image: linear-gradient(to left, whitesmoke, #CCCCCC);
+			}
+			.container div {
+				display: inline-block;
+			}
+			.context {/*对话框*/
+				background-color: #F5DEB3;
+				width: 70%;
+				height: 80px;
+				border-radius: 0px 10px 10px 0px;
+				
+				margin: 10px 0px 0px 10px;/*外边距*/
+				
+			}
+			
+			.img {
+				width: 45px;
+				height: 45px;
+				background-color: #00FFFF;
+				border-radius: 50%;
+				border: 1px bisque solid;
+				
+				margin: 10px 5px 30px 10px;
+				
+				vertical-align: top;/*框架居中*/
+			}
+			
+			.align-left {
+				text-align: left;/*文本左侧对齐*/
+				line-height: 80px;
+			}
+			
+			.align-right {
+				text-align: right;/*文本右侧对齐*/
+				line-height: 80px;
+			}
+			
+			.context-left {
+				border-radius: 0px 10px 10px 0px;
+				border-left: 5px #26A69A solid;
+			}
+			
+			.context-right {
+				border-radius: 10px 0px 0px 10px;
+				border-right: 5px #26A69A solid;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container align-left">
+			<div class="img"></div>
+			<div class=" context context-left">傻逼</div>
+		</div>
+
+		<div class="container align-right">
+            <div class=" context context-right">你才是傻逼</div>
+			<div class="img"></div>
+		</div>
+		<div class="container align-left">
+			<div class="img"></div>
+			<div class=" context context-left">我不是傻逼</div>
+		</div>
+		<div class="container align-right">
+            <div class=" context context-right">你就是傻逼</div>
+			<div class="img"></div>
+		</div>
+		<div class="container align-left">
+			<div class="img"></div>
+			<div class=" context context-left">傻逼说谁</div>
+		</div>
+		<div class="container align-right">
+            <div class=" context context-right">傻逼说你</div>
+			<div class="img"></div>
+		</div>
+		<div class="container align-left">
+			<div class="img"></div>
+			<div class=" context context-left">噢噢，傻逼你说我呀</div>
+		</div>
+	</body>
+
+</html>
