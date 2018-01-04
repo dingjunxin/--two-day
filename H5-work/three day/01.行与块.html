@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#u1 li {
+				list-style: none;
+				/*影藏前缀*/
+				width: 100px;
+				height: 40px;
+				/*菜单高宽*/
+				font-family: "微软雅黑";
+				font-size: 18px;
+				color: #F5F5F5;
+				/*字体高宽颜色*/
+				background-color: bisque;
+				display: inline-block;
+				/*块元素*/
+				text-align: center;
+				line-height: 40px;
+				/*字体居中*/
+			}
+			
+			#u1 li:hover {
+				/*鼠标移动特效*/
+				box-shadow: 1px 1px 10px black;
+				background-color: #6495ED;
+			}
+			
+			#u1 li ul {
+				position: absolute;
+			}
+			
+			#u1 li ul li {
+				float: none;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<ul id="u1">
+			<li>首页
+				<ul>
+					<li>A</li>
+					<li>B</li>
+				</ul>
+			</li>
+
+			<li>文章</li>
+			<li>图片</li>
+			<li>发展</li>
+			<li>历史</li>
+		</ul>
+	</body>
+
+</html>
