@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#d1{
+				background-color: #EC407A;
+				
+				top: 50px;
+				left: 50px;
+			    
+			   
+			}
+			#d2{
+				background-color:rgb(41,182,246);
+				top: 50px;
+				left: 50px;
+				z-index: -1;
+			}
+			.box-size{
+				width: 100px;
+				height: 100px;
+			}
+			.position-fixed{
+				
+				position: relative;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<div id="d1" class="position-fixed box-size"></div>
+		<div  id="d2" class=" box-size position-fixed"></div>
+		<div class="absious"></div>
+	</body>
+</html>

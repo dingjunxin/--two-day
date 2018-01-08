@@ -1,0 +1,36 @@
+#title {
+	width: 100%;
+	height: 60px;
+	background-color: rgb(255, 111, 0);
+	display: flex;
+	flex-flow: row column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.return {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	background-color: rgb(189, 189, 189);
+}
+
+.name {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	background-color: rgb(189, 189, 189);
+}
+
+.information {
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	background-color: rgb(189, 189, 189);
+}

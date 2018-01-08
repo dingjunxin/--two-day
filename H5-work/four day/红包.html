@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			::-webkit-scrollbar {
+				display: none;
+			}
+			
+			#d1 {
+				width: 800px;
+				height: 1000px;
+				background-image: linear-gradient(to top, rgb(239, 83, 80), rgb(213, 0, 0));
+				margin: 0 auto;
+				margin-top: 2px;
+				overflow: scroll;
+			}
+			
+			#contain {
+				position: fixed;
+				margin-top: 40px;
+				margin: 0 auto;
+				width: 400px;
+				height: 500px;
+				background-color: rgb(213, 0, 0);
+				background-image: url(../img/拆红包.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				border: 1px solid rgb(239, 83, 80);
+			}
+			
+			#d1 div {
+				vertical-align: top;
+				line-height: 1000px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="d1">
+			<div id="contain"></div>
+		</div>
+	</body>
+
+</html>
